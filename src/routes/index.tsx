@@ -5,6 +5,7 @@ import { DrawerRoutes } from './drawer-routes'
 export const Routes = () => {
     return (
         <NavigationContainer>
+            {/* <BottomtabRoutes /> */}
             <DrawerRoutes />
         </NavigationContainer>
     )

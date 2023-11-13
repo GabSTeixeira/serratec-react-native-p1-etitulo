@@ -8,7 +8,7 @@ export default function App() {
   
   return (
     <>
-      <StatusBar style='inverted' />
+      <StatusBar style='inverted'/>
       {/* <LoginPage /> */}
       {/* <MainPage /> */}
       <Routes />

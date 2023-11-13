@@ -10,7 +10,9 @@ export const MainPageStyles = StyleSheet.create({
     header: {
         flex: 1,
         width: '100%',
-        height: 'auto'
+        height: 'auto',
+        overflow: 'hidden'
+        
     },
 
     main: {

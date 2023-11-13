@@ -9,15 +9,14 @@ const BottomTab = createBottomTabNavigator()
 export const BottomtabRoutes = () => {
     return (
         <BottomTab.Navigator screenOptions={{headerShown: false}}>
-            <BottomTab.Screen 
-                name='Login'
+            <BottomTab.Screen
+                name='teste1'
                 component={LoginPage}
             />
-
             <BottomTab.Screen
-                name='Main'
+                name='teste2'
                 component={MainPage}
             />
-        </BottomTab.Navigator> 
+        </BottomTab.Navigator>
     )
 }

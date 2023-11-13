@@ -12,7 +12,7 @@ export type Opcao = {
     
 }
 
-interface inputOpcoes {
+export interface inputOpcoes {
     tituloGrupo: string,
     arrayOpcoes: Opcao[]
 }

@@ -1,6 +1,9 @@
 import { StyleSheet } from 'react-native'
 
 export const TopBarStyles = StyleSheet.create({
+
+    //'#173057'
+
     fullContainer: {
         position: 'absolute',
         height: 110,
@@ -13,7 +16,7 @@ export const TopBarStyles = StyleSheet.create({
     safeAreaContainer: {
         flexDirection: 'row',
         width: '100%',
-        height: 60,
+        height: 65,
         alignItems: 'center',
         gap: 40
     },

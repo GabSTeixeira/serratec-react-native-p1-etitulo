@@ -8,7 +8,7 @@ export const GrupoOpcoesStyles = StyleSheet.create({
         height: 'auto',
         padding: 15,
         marginTop: 14,
-        gap: 20    
+        gap: 20   
     },
 
     row: {
