@@ -2,7 +2,13 @@ import { Text, View, TextInput, Image, TouchableOpacity, Linking} from 'react-na
 import { FormConfirmarSenhaStyles } from './formConfirmarSenhaStyle'
 import OlhoImage from '../../assets/images/olho.png'
 
-export const FormConfirmarSenha = () => {
+
+export const FormConfirmarSenha = ( { navigation } : any) => {
+
+
+    const handleOpenDrawer = () => {
+        navigation.openDrawer()
+    }
 
     return (
         <View style={FormConfirmarSenhaStyles.containerFormulario}>
@@ -21,7 +27,7 @@ export const FormConfirmarSenha = () => {
                     </View>
                 </View>
             </View>
-            <TouchableOpacity style={FormConfirmarSenhaStyles.botaoConfirmar} >
+            <TouchableOpacity style={FormConfirmarSenhaStyles.botaoConfirmar} onPress={handleOpenDrawer} >
                 <Text style={FormConfirmarSenhaStyles.botaoTexto}>Confirmar</Text>
             </TouchableOpacity>
         </View>

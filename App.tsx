@@ -1,6 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { LoginPage } from './src/pages/LoginPage'
 import { MainPage } from './src/pages/MainPage'
+import { Routes } from './src/routes';
+import 'react-native-gesture-handler'
 
 export default function App() {
   
@@ -8,7 +10,8 @@ export default function App() {
     <>
       <StatusBar style='inverted' />
       {/* <LoginPage /> */}
-      <MainPage />
+      {/* <MainPage /> */}
+      <Routes />
     </>
   );
 }

@@ -4,7 +4,7 @@ import { LogoComTexto } from "../../components/LogoComTexto"
 import { FormConfirmarSenha } from "../../components/FormConfirmarSenha"
 import { LoginPageStyles } from "./loginPageStyle"
 
-export const LoginPage = () => {
+export const LoginPage = ( { navigation } : any ) => {
 
     return (
         <View style={GlobalStyles.container}>
@@ -12,7 +12,7 @@ export const LoginPage = () => {
                 <LogoComTexto />
             </View>
             <View style={LoginPageStyles.viewBot}>
-                <FormConfirmarSenha />
+                <FormConfirmarSenha navigation={navigation} />
             </View>
         </View>
     )
