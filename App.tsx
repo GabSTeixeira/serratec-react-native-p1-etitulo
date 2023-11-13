@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
-import { LoginPage } from './src/pages/LoginPage'
-import { MainPage } from './src/pages/MainPage'
+import { LoginPage } from './src/screens/LoginPage'
+import { MainPage } from './src/screens/MainPage'
 import { Routes } from './src/routes';
 import 'react-native-gesture-handler'
 

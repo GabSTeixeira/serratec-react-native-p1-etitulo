@@ -1,6 +1,6 @@
 import { createDrawerNavigator } from '@react-navigation/drawer'
-import { LoginPage } from '../pages/LoginPage'
-import { MainPage } from '../pages/MainPage'
+import { LoginPage } from '../screens/LoginPage'
+import { MainPage } from '../screens/MainPage'
 
 const DrawerTab = createDrawerNavigator()
 

@@ -2,8 +2,6 @@ import { StyleSheet } from 'react-native'
 
 export const TopBarStyles = StyleSheet.create({
 
-    //'#173057'
-
     fullContainer: {
         position: 'absolute',
         height: 110,

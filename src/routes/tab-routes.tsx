@@ -1,7 +1,7 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 
-import { LoginPage } from '../pages/LoginPage'
-import { MainPage } from '../pages/MainPage'
+import { LoginPage } from '../screens/LoginPage'
+import { MainPage } from '../screens/MainPage'
 
 
 const BottomTab = createBottomTabNavigator()
