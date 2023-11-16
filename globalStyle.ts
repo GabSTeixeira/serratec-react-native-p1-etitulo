@@ -9,7 +9,7 @@ export const GlobalStyles = StyleSheet.create({
     images: {
       width: '100%',
       height: '100%',
-      objectFit: 'contain'
+      resizeMode: 'contain'
     },
 
     textWhiteBold: {

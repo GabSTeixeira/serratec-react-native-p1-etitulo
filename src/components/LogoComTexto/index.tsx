@@ -28,7 +28,7 @@ export const LogoComTexto = () => {
     }
     return (
         <>
-        <View style={[LogoComTextoStyles.viewImage, {width: 100, height: 100}]}>
+        <View style={[LogoComTextoStyles.viewImage, {minWidth: 100, width: '30%', height: '30%', minHeight: 100}]}>
             <Image style={GlobalStyles.images} source={LogoTSE}/>
         </View>
         <View style={LogoComTextoStyles.viewTextLogo}>

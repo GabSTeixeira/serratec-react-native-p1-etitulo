@@ -15,7 +15,7 @@ export const NavBarStyles = StyleSheet.create({
 
     column: {
         flexDirection: 'column',
-        width: '30%',
+        width: '20%',
         height: '100%',
         alignItems: 'center',
         justifyContent: 'center',

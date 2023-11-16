@@ -4,7 +4,6 @@ import { MainPage } from '../screens/MainPage'
 
 const DrawerTab = createDrawerNavigator()
 
-
 export const DrawerRoutes = () => {
     return (
         <DrawerTab.Navigator screenOptions={{headerShown: false}}>

@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native'
+import { View, Text, ScrollView } from 'react-native'
 import { NavBar } from '../../components/NavBar'
 import { TopBar } from '../../components/topBar'
 import { MainPageStyles } from './mainPageStyle'
@@ -12,15 +12,16 @@ export const MainPage = ({ navigation }: any) => {
             <View style={MainPageStyles.header}>
                 <TopBar navigation={navigation}/>
             </View>
-            <View style={MainPageStyles.main}>
-                <FlatList 
-                    data={Grupos}
-                    keyExtractor={(_,index) => ''+index}
-                    renderItem={({item}) => (
-                        <GrupoOpcoes tituloGrupo={item.tituloGrupo} arrayOpcoes={item.arrayOpcoes}/>
-                    )}
-                />
-            </View>
+                <View style={MainPageStyles.main}>
+                    <FlatList
+                        data={Grupos}
+                        keyExtractor={(_,index) => ''+index}
+                        renderItem={({item}) => (
+                            <GrupoOpcoes tituloGrupo={item.tituloGrupo} arrayOpcoes={item.arrayOpcoes}/>
+                            )
+                        }
+                    />
+                </View>
             <View style={MainPageStyles.footer}>
                 <NavBar />
             </View>

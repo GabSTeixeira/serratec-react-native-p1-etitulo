@@ -60,7 +60,7 @@ export const FormConfirmarSenhaStyles = StyleSheet.create({
     },
 
     inputSenha: {
-        width: 360,
+        width: '95%',
         height: 55,
         borderWidth: 1,
         borderRadius: 10,
